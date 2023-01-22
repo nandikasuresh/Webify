@@ -1,37 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Lights</title>
 </head>
+<style>
+        body{
+        background: linear-gradient(
+            to bottom,
+            black 0%,
+            black 73%,
+            #151747 73%,
+            #151747 100%
+        );
+    }
+    .year{
+        color: white;
+    }
+    .similar{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        column-gap: 75px;
+    }
+    .gif{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .center{
+        position: absolute;
+        top: 90px;
+        left: 480px;
+    }
+    .desc{
+        float: left;
+        width: 2000px;
+        padding: 10px;
+        height: 300px;
+    } 
+
+    .row2{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+    } 
+    .review{
+        float: left;
+        width: 2000px;
+        padding: 10px;
+        height: 300px;        
+    }
+    .row3{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        height: 470px;
+    } 
+    .checked {
+        color: orange;
+    }
+    .cast{
+        border-radius: 50px;
+    }
+    .row4{
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    text{
+        padding-left: 10px;
+    }
+</style>
 <body>
-    
-    <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/City_Lights_%281931_theatrical_poster_-_retouched%29.jpg" alt="Image not found" style="width:400px;height:500px;">
-        <h1>City Lights</h1>
-        <p>Trailer:</p>
-        <p>duration:</p>
-        <p>Short description:</p>
-        <p>rating:</p>
-        <p>reviews:</p>
-        <p>release date:</p>
-        <p>Where to watch:</p>
-        <p>Cast:</p>
+    <div class="row1" style="position: relative; left: 0; top: 0;">
+        <img width="100%" height="800px" src="https://media3.giphy.com/media/eBeyBv0zcio7CxdyI4/giphy.gif?cid=790b761142d8064903ee4700a0c865dc85b70fd23f8254fe&rid=giphy.gif&ct=g" class="gif">
+        <img width="300px" height="300px" src="citylights-PhotoRoom.png-PhotoRoom.png" class="center"> 
+
+    </div>
+
+    <p>1982 . R . 1h 49m</p>
+    <div class="row2">
+        <div class="desc">
+            <iframe width="100%" height="400px" src="https://www.youtube.com/watch?v=b2NTUnujk1I">
+            </iframe> 
+        </div>
+        <div class="desc">Short description: City Lights is a 1931 American silent romantic comedy film written, produced, directed by, and starring Charlie Chaplin. The story follows the misadventures of Chaplin's Tramp as he falls in love with a blind girl (Virginia Cherrill) and develops a turbulent friendship with an alcoholic millionaire (Harry Myers).<br><br><br>
+        Ratings<br><br>
+        8.5/10IMDb  |  97%Rotten Tomatoes  |  99%Metacritic
+        </div>   
+    </div>
+    <br><br><br><br><br>
+
+    <div class="row3">
+        <div class="review">Reviews<br><br>
+            Top Reviews<br><br>
+            <b>The Caring Clochard...</b><br>
+            A good deal of silent black and white cinema is a chore to endure but the cream of that era still manages to rise to the top and compete, in its own unique and original way, with the cinema that followed over the decades up to and including today. A significant number of those films were written and performed by Charlie Chaplin and, if you watched nothing other than the films he made from that period, including this, your appreciation of his genius and talent would flower and grow, your vision of sincerity and generosity restore and your enchantment of the simpler and more genuine things in life embellish.
+            <br><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span><br><br>
+            <b>The Tramp does it again!</b><br>
+            Shot in a time when silent films were already vanishing from the big screens "City Lights" is a masterfully executed comedy by the one and only Charlie Chaplin. Even without dialog Chaplin manages to tell a story between two loners looking to companionship in a world that has almost forgot about them. Funny, emotional and timeless!<br><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span><br><br>
+        </div>
+        <div class="review"><br><br>Release date<br><br>
+            7 March 1931<br><br>
+            Where to watch<br><br>
+            <a href="https://www.youtube.com/watch?v=TkF1we_DeCQ" target="_blank">
+                <img width="100px" height="100px" class="card-img-top" src="youtube.png" alt="">
+            </a>
+
+        </div>
+    </div><br><br><br><br><br>
+    <div class="row4">Cast
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="charlie.jfif" alt="">
+            <a href="https://en.wikipedia.org/wiki/Charlie_Chaplin" target="_blank"><br><text>Charlie Chaplin</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="virginia.jfif" alt="">
+            <a href="https://en.wikipedia.org/wiki/Virginia_Cherrill" target="_blank"><br><text>Virginia Cherrill</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="al ernest.jpg" alt="">
+            <a href="https://en.wikipedia.org/wiki/Al_Ernest_Garcia" target="_blank"><br><text>Al Ernest Garcia</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="hank mann.jfif" alt="">
+            <a href="https://en.wikipedia.org/wiki/Hank_Mann" target="_blank"><br><text>Hank Mann</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="florence.jpg" alt="">
+            <a href="https://en.wikipedia.org/wiki/Florence_Lee_(born_1864)" target="_blank"><br><text>Florence Lee</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="cast"><br><br>
+            <img width="100px" height="100px" class="cast" src="hank mann.jfif" alt="">
+            <a href="https://en.wikipedia.org/wiki/Harry_C._Myers" target="_blank"><br><text>Harry C. Myers</text></a>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
         <h1>Similar movies:</h1>
         <div>
             <a href="chhichhore.html" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg" alt="Image not found" style="width:200px;height:300px;">
+                <img width="250px" height="250px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Chhichhore_Poster.jpg/220px-Chhichhore_Poster.jpg" alt="">
             </a>
             <a href="moderntimes.html" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg" alt="Image not found" style="width:200px;height:300px;">
+                <img width="250px" height="250px" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg" alt="">
             </a>
             <a href="lifeisbeautiful.html" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg" alt="Image not found" style="width:200px;height:300px;">
+                <img width="250px" height="250px" src="https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg" alt="">
             </a>
             <a href="forrestgump.html" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg" alt="Image not found" style="width:200px;height:300px;">
+                <img width="250px" height="250px" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg" alt="">
             </a>
         </div>
     </div>    
